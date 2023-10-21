@@ -1,0 +1,86 @@
+.yoga-container {
+    /* background: linear-gradient(100deg, #FF8C00, #FFA500); */
+    background-color: #fdfd96;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.secondary-btn {
+    margin-top: 20px;
+    position: relative;
+    left: 73%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border-color: #03285b ;
+    border-width: 5px;
+    background-color: #1C3A94;
+    box-shadow: 0px 0px 0px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.secondary-btn:hover {
+    background-color: #3864e6;
+}
+
+.starting-contdown {
+    margin: auto;
+    border: 10px solid rgba(125, 125, 125, 0.5);
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    position: relative;
+    top: 45%;
+}
+.starting-contdown h1 {
+    color: white;
+}
+.pose-img {
+    position: absolute;
+    right: 80px;
+    top: 95px;
+    /* width: 500px; */
+    height: 80vh;
+    border: 3px solid #03285b;
+    border-radius: 15px;
+    aspect-ratio: 1;
+}
+
+.performance-container {
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    left: 80px;
+}
+
+
+.pose-performance {
+    margin: 10px 10px;
+    padding: 10px 20px;
+    /* padding: 10px 20px 10px 20px; */
+    background-color: #1C3A94;
+    box-shadow: 0px 0px 0px 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid #03285b;
+}
+.pose-performance h4 {
+    color: white;
+}
+
+/* .pose-performance:hover {
+    background-color: #3864e6;
+} */
+
+#webcam {
+    transform: rotateY(180deg);
+    /* border: 3px solid #03285b; */
+    /* border-radius: 15px; */
+    /* height: 75vh; */
+}
+
+#my-canvas {
+    transform: rotateY(180deg);
+}

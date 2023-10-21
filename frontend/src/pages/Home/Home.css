@@ -1,0 +1,122 @@
+
+.home-header {
+    /* background: linear-gradient(100deg,#BA007C, #7D4B65); */
+    background-color: #fdfd96;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Add this line */
+    z-index: 2; 
+}
+
+/* yellow=#fdfd96 */
+/* blue=#03285b */
+
+.home-container {
+    background: black
+}
+.header-btn:hover {
+    border-color: white;
+}
+
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 44px;
+    margin-left: 30px;
+    /* color: #BA007C; */
+    /* color: #466E89; */
+    color: #152B40;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.home-main {
+    /* margin: auto; */
+    /* margin-top: -120px; */
+    width: 100vw;
+    height: 100vh;    
+    /* height: calc(100vh - 5px); Adjusted height to account for header */
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/Yoga_assist_BG.png') ; */
+    background-image: url('../../utils/images/Yoga_assist_BG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1550px 750px;
+    position: relative; /* Add this line */
+    z-index: 1;
+}
+
+.description {
+    font-size: 66px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.heading-sec{
+    position: absolute;
+    left: 17vw;
+    top: 30vh;
+}
+
+.heading-sec h1{
+    font-size: 100px;
+    font-family: cursive;
+}
+
+.btn-section {
+    position: absolute;
+    left: 16vw;
+    top: 60vh;
+}
+
+.btn{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color:#1C3A94;
+    color: white;
+    font-size: 24px;
+    border-color: #03285b;
+    border-radius: 5px;
+    border-width: 3px;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.btn:hover {
+    background: #3864e6;
+    /* color: white; */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+#about-btn {
+    padding: 5px 10px;
+}
+#about-btn:hover {
+    /* border-color: white;
+    background-color: white;
+    color: black; */
+    background-color:#3864e6;
+}
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: black;
+}
+
+/* .footer{
+    height: 50px;
+    width: 100vw;
+    background-color: #BA007C;
+} */
